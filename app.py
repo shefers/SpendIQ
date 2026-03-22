@@ -20,7 +20,11 @@ st.title("SpendIQ 💸")
 st.caption("AI-powered insights to help you spend smarter and build wealth")
 st.info("📊 Understand your spending. 🤖 Get AI insights. 💡 Make better financial decisions.")
 
+<<<<<<< HEAD
 uploaded_file = st.file_uploader("Upload your transaction File", type=["csv", "xlsx"])
+=======
+uploaded_file = st.file_uploader("Upload your transaction CSV", type=["csv"])
+>>>>>>> 46cf5dcb5f007443edae98e3d1139a16ef4a4a20
 
 if uploaded_file is not None:
     try:
@@ -204,4 +208,8 @@ if uploaded_file is not None:
         st.error(f"Error processing file: {e}")
 
 else:
+<<<<<<< HEAD
     st.info("Upload a CSV/XLSX file to begin.")
+=======
+    st.info("Upload a CSV file to begin.")
+>>>>>>> 46cf5dcb5f007443edae98e3d1139a16ef4a4a20

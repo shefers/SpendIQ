@@ -2,5 +2,9 @@ streamlit
 pandas
 numpy
 matplotlib
+<<<<<<< HEAD
 openAI
 openpyxl
+=======
+openAI
+>>>>>>> 46cf5dcb5f007443edae98e3d1139a16ef4a4a20
